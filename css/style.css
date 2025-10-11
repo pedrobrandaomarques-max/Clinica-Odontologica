@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+width: 100%;
+height: 130px;
+display: flex;
+background-color: #e0f7fa;
+
+}
+
+.logo{
+    width: 50%;
+    padding: 10px;
+}
+.logo img{
+    width: 30%;
+    height: auto;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    
+}
+    
+.menu nav ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 20px;
+}
+.menu nav ul li a{
+    text-decoration:none;
+    font-size: 1.3vw ;
+    text-transform: uppercase;
+    padding: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+.menu nav ul li a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+.banner img{
+    width: 100%;
+    height: 600px;
+}
+
+.conteiner-principal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px 2%;
+}
+
+.card{
+    width: 25%;
+    height: auto;
+    border: 1px solid red;
+    margin: 1%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 1%;
+    background-color: #3B4171;
+    color: white;
+}
+.card img{
+    width: 10%;
+}
+
+.card h2{
+    padding: 10px 0;
+    
+}
+
+.card p{
+    padding: 15px;
+
+}
+
+.conteiner-secundario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px 2%;
+    
+
+}
+
+.img{
+    width: 50%;
+    padding: 10px;
+    
+}
+.img img{
+    width: 100%;
+    padding: 20px;
+    
+}
+.texto{
+    width: 50%;
+}
+
+.h1{
+    text-align: center;
+    padding: 1%;
+}
+.texto h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto h2{
+    text-align: center;
+    font-size: 45px;
+    color: aqua;
+}
+.texto p{
+    text-align: center;
+    padding: 20px 1%;
+    font-size: 50px;
+}
+
+.conteiner-terciario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: #14122B;
+    display: flex;
+}
+
+.box{
+    width: 33.3%;
+    height: 200px;
+    margin: 1%;
+    
+}
+
+.box h1{
+    padding: 40px 3%;
+    color: grey;
+}
+
+.box h2{
+    padding: 20px 1%;
+    color: grey;
+    font-size: 38px;
+    text-align: center;
+}
+
+.box img{
+    width: 125px;
+}
+.box .rede{
+    gap: 100px;
+    display: flex;
+}
+
+
+footer{
+     background-color: rgb(150, 150, 150);
+    width: 100%;
+    padding: 40px 2%;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+/*quem somos apartir daqui*/ 
+
+.banner2{
+    width: 100%;
+    padding: 20px 1%;
+    display: flex;
+    justify-content: center;
+    
+}
+.banner2 img{
+    border-radius: 50px;
+    height: 600px;
+}
+
+.conteiner-secundario2{
+    width: 100%;
+    height: auto;
+    padding: 20px 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.conteiner-secundario2 h1{
+    padding: 20px 1%;
+    color: grey;
+}
+.conteiner-secundario2 p{
+    text-align: center;
+    padding: 20px 1%;
+    font-size: 1.2vw;
+    max-width: 780px;
+    line-height: 28px;
+    color: grey;
+    line-height: 1.6;
+
+}
+
+/*Servicos*/
+
+.conteiner{
+    display: flex;
+}
+
+.menu-lateral{
+    width: 32%;
+    
+    padding: 15px 2%;
+}
+
+
+
+
+.card2{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 1%;
+    background-color: #3B4171;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.7vw;
+}
+
+.banner7{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner7 img{
+    width: 100%;
+    height: auto;
+}
+
+.conteiner-secundario2 h1{
+    color: #00B9C5;
+    font-size: 3vw;
+
+}
+
+.conteiner-secundario2 h2{
+    color: grey;
+    font-size: 2vw;
+}
+
+.conteiner-secundario2 .p{
+    max-width: 100%;
+}
+
+.form{
+    width:100% ;
+    height:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 2%;
+}
+
+.form form{
+width: 800px;
+height: auto;
+border: 1px solid black;
+padding: 15px 1%;
+}
+
+.form label{
+font-size: 20px;
+}
+
+.form input[type="text"] {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form form input[type="date"]{
+    width: 200px;
+    border-radius: 12px;
+    font-size: 1.08vw;
+    margin-bottom: 10px;
+}
+.form textarea{
+    width: 100%;
+    height: 250px;
+    resize: none;
+    border-radius: 13px;
+}
+
+.form input[type="submit"] {
+    width: 20%;
+    padding: 18px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: #00B9C5; /* Cor do texto da imagem */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #009eaa; /* Um tom mais escuro no hover */
+    transform: scale(1.10);
+}
+
+
+/* MEDIA QUERY PARA TELAS PEQUENAS */
+@media screen and (max-width: 768px) {
+
+    /* Header fica em coluna, altura automática e centraliza o conteúdo */
+    header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Logo e menu ocupam 100% da largura e centralizam conteúdo */
+    .logo, .menu {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Imagem da logo aumenta para 50% da largura do container */
+    .logo img {
+        width: 50%;
+    }
+
+    /* Menu vira coluna e centraliza itens */
+    .menu nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    /* Links do menu aumentam de tamanho e ficam espaçados verticalmente */
+    .menu nav ul li a {
+        font-size: 4vw;
+        padding: 8px 0;
+        margin: 5px 0;
+    }
+
+    /* Banner com altura automática para ajustar a largura */
+    .banner img {
+        height: auto;
+    }
+
+    /* Container principal vira coluna e centraliza cards */
+    .conteiner-principal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Cards ocupam quase toda a largura e ganham margem vertical */
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    /* Imagem dentro do card aumenta para melhor visualização */
+    .card img {
+        width: 20%;
+    }
+
+    /* Container secundário vira coluna */
+    .conteiner-secundario {
+        flex-direction: column;
+    }
+
+    /* Imagem e texto ocupam 100% da largura com padding */
+    .img, .texto {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Títulos e texto dentro do container texto ficam maiores para leitura */
+    .texto h1 {
+        font-size: 8vw;
+    }
+
+    .texto h2 {
+        font-size: 6vw;
+    }
+
+    .texto p {
+        font-size: 4.5vw;
+    }
+
+    /* Container terciário vira coluna */
+    .conteiner-terciario {
+        flex-direction: column;
+    }
+
+    /* Boxes dentro do container terciário ocupam 100% com margem e centralizam texto */
+    .box {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* Imagens nas boxes ficam menores para caber na tela */
+    .box img {
+        width: 80px;
+    }
+
+    /* Títulos das boxes aumentam para melhor visibilidade */
+    .box h2 {
+        font-size: 6vw;
+    }
+
+    /* Banner2 com bordas arredondadas fica com largura 90% e altura automática */
+    .banner2 img {
+        height: auto;
+        width: 90%;
+    }
+
+    /* Texto dentro do container secundário 2 ganha tamanho maior e padding */
+    .conteiner-secundario2 p {
+        font-size: 4vw;
+        padding: 10px;
+    }
+
+    /* Container geral vira coluna */
+    .conteiner {
+        flex-direction: column;
+    }
+
+    /* Menu lateral e banner7 ocupam 100% da largura */
+    .menu-lateral, .banner7 {
+        width: 100%;
+    }
+
+    /* Cards2 aumentam a fonte para facilitar leitura */
+    .card2 {
+        font-size: 4vw;
+    }
+
+    /* Formulário com padding maior para espaços maiores na tela */
+    .form {
+        padding: 20px 5%;
+    }
+
+    /* Formulário ocupa 100% da largura do container */
+    .form form {
+        width: 100%;
+    }
+
+    /* Botão submit ocupa toda largura disponível e aumenta a fonte */
+    .form input[type="submit"] {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    /* Footer diminui a fonte e padding para se ajustar ao espaço menor */
+    footer {
+        font-size: 14px;
+        padding: 20px 5%;
+    }
+}
